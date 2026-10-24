@@ -77,7 +77,23 @@
 
 ![灵猫网络(SpiritCat) 测速图](https://i.eoht.net/airport/spiritcat_speed.webp)
 
+**历史速度记录摘录**：来源为本页已有的 MiaoKo 自定义测试截图，原始提供者未记录。图内时间 **2026-07-19 17:24:44（CST）**，测试端标注珠海联通 9Gbps、32 线程，主端 4.3.3、喵速 4.7.0，协议为 VLESS。
+
+| 节点摘录 | TLS RTT | HTTPS 延迟 | 平均速度（原图） | 最高速度（原图） | UDP 类型 |
+| --- | --- | --- | --- | --- | --- |
+| 香港 Cloud - 01 | 113ms | 788ms | 529.75MB | 574.44MB | FullCone |
+| 台湾 Cloud - 03 | 147ms | 1289ms | 73.77MB | 88.88MB | Unknown |
+| 日本 Cloud - 09 | 133ms | 1304ms | 88.78MB | 207.84MB | FullCone |
+| 新加坡 Cloud - 01 | 97ms | 910ms | 239.78MB | 319.41MB | Unknown |
+| 美国 Cloud - 01 | 246ms | 1084ms | 9.80MB | 15.42MB | FullCone |
+
+速度列保留原图 MB 标注，不换算为 Mbps；表中保留不同地区的速度差异及 Unknown。TLS RTT 与 HTTPS 延迟分别取原图对应列，测速目标、单节点测试时长和复测次数未记录。
+
 ![灵猫网络(SpiritCat) 解锁图](https://i.eoht.net/airport/spiritcat_test.webp)
+
+**解锁图说明**：本页历史截图时间为 **2026-07-19 18:18:02（CST）**，同样标注珠海联通 9Gbps32线程测试端，使用 MiaoKo 的 YouTube / Netflix / Disney+ 三项检测，协议为 VLESS。图中美国 Cloud - 01、日本 Cloud - 01、台湾 Cloud - 01、香港 Cloud - 01、新加坡 Cloud - 01 分别显示对应 US / JP / TW / HK / SG 解锁。
+
+本图未列 AI 平台，不能用它证明 ChatGPT 或 Gemini 可用；账号、内容样本和复测次数未记录。上述文字来自已有截图，不是本次重新测速或解锁实测。
 
 <a id="spiritcat-related-guides"></a>
 
